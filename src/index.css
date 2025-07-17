@@ -151,7 +151,9 @@
   font-size: 190px;
   font-family: "Bebas Neue", sans-serif;
 }
-
+@utility footer{
+  @apply flex text-white justify-center w-full items-center;
+}
 @utility hide-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;

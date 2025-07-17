@@ -79,6 +79,7 @@ const App = () => {
     loadTrendingMovies();
   }, []);
   return (
+    <>
     <main>
       <div className='pattern' />
 
@@ -120,6 +121,10 @@ const App = () => {
         </section>
       </div>
     </main>
+    <footer>
+          <p className='footer'>&copy; {new Date().getFullYear()} ✦ Josephat Sangwa </p>
+    </footer>
+    </>
   )
 }
 
