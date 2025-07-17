@@ -39,6 +39,7 @@ const App = () => {
       }
 
       const data = await response.json();
+      console.log(data);
       
       if (data.Response === 'False') {
         setErrorMessage(data.Error || 'Failed to fetch movies');
@@ -120,10 +121,8 @@ const App = () => {
           )}
         </section>
       </div>
+      <p className='footer'>Developed By &nbsp;<a href='mailto:sangwajozaphat@gmail.com'> Josephat Sangwa</a>&nbsp; ✦ &copy; {new Date().getFullYear()}  </p>
     </main>
-    <footer>
-          <p className='footer'>&copy; {new Date().getFullYear()} ✦ Josephat Sangwa </p>
-    </footer>
     </>
   )
 }
