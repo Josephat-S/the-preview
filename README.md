@@ -30,8 +30,10 @@ A website for discovering movies and their reviews (ratings).
 -**Appwrite** (for database)
 
 ## Demo
-![Screenshot 1](/Screenshots/Screenshot201.png)
-![Screenshot 2](/Screenshots/Screenshot202.png)
+<p align="center">
+  <img src="Screenshots/Screenshot%201.png" width="400">
+  <img src="Screenshots/Screenshot%202.png" width="400">
+</p>
 
 ## Getting Started
 
